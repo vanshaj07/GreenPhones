@@ -1,0 +1,281 @@
+
+ .navbar-nav li {
+    padding: 5px;
+
+}
+
+
+.fa-solid {
+
+    font-size: 25px;
+}
+
+@media 
+
+
+* {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 992px) {
+
+    /*Tablets [601px -> 1200px]*/
+    .no-icon {
+        display: none;
+    }
+
+    .show-icon {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    /*Tablets [601px -> 1200px]*/
+    .show-icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .borders {
+        border-right: 1px solid #707070;
+    }
+}
+
+.color {
+    color: #83C801;
+}
+
+
+.color {
+    color: #83C801;
+}
+a{
+    color: #83C801;
+}
+a:hover{
+    color: #83C801;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 450px;
+    background: rgba(143, 184, 66, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 5px 10px 10px;
+    height: 50px;
+
+
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    height: 5px;
+    outline: none;
+    padding: 24px 3px;
+    font-size: 18px;
+    color: #83C801;
+    /* position: relative; */
+}
+
+.search-bar button img {
+    width: 25px;
+    /* position: absolute; */
+
+}
+
+
+.box-shadow {
+    box-shadow: 2px 2px 5px 2px rgba(112, 176, 136, 0.763);
+}
+
+.border-round {
+    border-radius: 15px;
+}
+
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #83C801;
+    cursor: pointer;
+    margin-top: -5px
+}
+
+h6 {
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+    margin: auto;
+}
+
+h6::before {
+    content: "";
+    width: 60px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+}
+
+h6::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.border-left {
+    border-left: 8px solid #FF6565;
+    padding-left: 15px;
+}
+
+.circle {
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    padding-left: 7px;
+    /* height: 50px; */
+    background: #83C801;
+    text-align: center;
+}
+
+.bgcolor {
+    background-color: #e1f5bc;
+}
+.label-class input[type="checkbox"]:checked + .span-class .card{
+    background-color: #d3fe85;
+}
+
+.label-class input[type="checkbox"]{
+    display: none;
+}
+.card{
+    cursor: pointer;
+}
+body .modal-width {
+    max-width: 1000px;
+    margin: auto;
+    }
+    .dropzone {
+        min-height: 115px !important;
+        border: 1px solid black !important;
+        background: white !important;
+        padding: 10px 10px !important;
+        border-radius: 2px !important;
+        color: green !important;
+        height: auto !important;
+      }
+
+
+      @media(min-width:950px) {
+        .margin-null {
+            margin-left: 200px;
+        }
+    }
+
+    .footer-p {
+
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .color {
+        color: #1477BB;
+    }
+
+    .signup-btn {
+        border: 1px solid black;
+        border-radius: 40px;
+        padding: 15px 50px;
+        margin: 10px 0px 20px 10px;
+    }
+
+    .signup-btn:hover {
+        border: 1px solid black;
+        background-color: #1477BB;
+        color: white;
+    }
+
+    .footer-social-icons {
+        color: #1BA79F;
+        font-size: 22px;
+        margin-right: 30px;
+    }
+
+    .footer-heading {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .footer-text {
+        line-height: 1;
+        margin-left: -20px;
+    }
+
+    .footer-text p {
+        cursor: pointer;
+    }
+
+    #signinwith {
+        width: 100%;
+        height: 50px;
+        margin: 20px 0;
+        text-align: center;
+        font-size: 28px;
+        position: relative;
+        background-color: white;
+    }
+
+    #signinwith:after {
+        content: '';
+        width: 100%;
+        border-bottom: dashed 1px rgb(138, 135, 135);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        z-index: 1;
+    }
+
+    #signinwith h3 {
+        background-color: white;
+        /* Same as the parents Background */
+        width: auto;
+        display: inline-block;
+        z-index: 3;
+        font-size: 20px;
+        padding: 0 20px 0 20px;
+        color: black;
+        position: relative;
+        font-family: calibri;
+        font-weight: lighter;
+        margin: 0;
+    }
+
+    .signin-with-brands .fa-brands {
+        padding: 10px;
+        border-radius: 3px;
+        color: white;
+    }
