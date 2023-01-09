@@ -154,7 +154,7 @@ componentDidUpdate(prevProps) {
            >
                {this.showSpecificBrands()}
                <div className="container  position-relative">
-                   <div className="container position-absolute" style={{bottom: 0,left: 0}}><a href="/green-mobile/all-brands"
+                   <div className="container position-absolute" style={{bottom: 0,left: 0}}><a href="/all-brands"
                            style={{textDecoration: "none", color: "black"}}> More Brands <span
                                className="fs-4">&#187;</span>
                        </a>

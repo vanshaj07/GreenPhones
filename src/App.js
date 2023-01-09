@@ -27,7 +27,7 @@ import UserProfile from './components/UserProfile';
 class App extends Component {
   buy = () => {
     window.open(
-      "https://www.google.com/",
+      "https://store.gocashit.com/",
       "_blank"
     );
   };
@@ -36,7 +36,7 @@ class App extends Component {
     //const {token} = greenMobileStore;
     const token = sessionStorage.getItem("green-mobile-token");
     return (
-    <Router basename={"/green-mobile" || ""} >
+    <Router basename={"/" || ""} >
         <div>
           {/* <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <ul className="navbar-nav ms-auto">
@@ -68,15 +68,15 @@ class App extends Component {
                     {/* <li class="nav-item">
                         <a class="nav-link" style={{"color":"grey"}} href="#">BUY</a>
                     </li> */}
-                <li class="nav-item" >< Link to={'#'}  onClick={() => this.buy()} style={{"color":"grey"}} className="nav-link"> BUY </Link></li>
+                <li class="nav-item" >< Link to={'#'}  onClick={() => this.buy()} style={{"color":"grey"}} className="nav-link"> Buy </Link></li>
                    
-                <li class="nav-item" ><Link to={'/career'} style={{"color":"grey"}} className="nav-link">  CAREER </Link></li>
+                <li class="nav-item" ><Link to={'/career'} style={{"color":"grey"}} className="nav-link">  Career </Link></li>
 
-                <li class="nav-item" ><Link to={'/about-us'} style={{"color":"grey"}} className="nav-link"> ABOUT US </Link></li>
+                <li class="nav-item" ><Link to={'/about-us'} style={{"color":"grey"}} className="nav-link"> About Us </Link></li>
 
-                <li class="nav-item" ><Link to={'/warranty'} style={{"color":"grey"}} className="nav-link"> WARRANTY </Link></li>
+                <li class="nav-item" ><Link to={'/warranty'} style={{"color":"grey"}} className="nav-link"> Warranty </Link></li>
                     
-                <li class="nav-item" ><Link to={'/contact-us'} style={{"color":"grey"}} className="nav-link"> CONTACT </Link></li>
+                <li class="nav-item" ><Link to={'/contact-us'} style={{"color":"grey"}} className="nav-link"> Contact Us </Link></li>
 
                 </ul>
 
