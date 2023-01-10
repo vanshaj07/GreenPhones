@@ -118,7 +118,7 @@ componentDidUpdate(prevProps) {
  >
    <div className="row">
        <div className="col-md-8">
-           <div className="container fs-1">Sell your Mobile Phone for Instant Cash</div>
+           <div className="container fs-1">Sell your mobile phone for instant cash</div>
            <div className="container fs-6">
                <span className="color fs-4"> &#10004;</span>Maximum Value
                <span className="color fs-4"> &#10004;</span>Safe & Hassle-free
@@ -182,7 +182,7 @@ componentDidUpdate(prevProps) {
 {/* <!-- WHY US ENDS --> */}
 {/* <!-- TOP SELLING BRANDS STARTS --> */}
 
-<div className="container my-4"><span className="border-left fs-2">Top Selling Brands </span>
+<div className="container my-4"><span className="border-left fs-2">Top selling brands </span>
 </div>
 <div className="container ">
    <div className="row carousel" data-flickity='{"wrapAround" : true,"autoplay" : true,"pageDots":false}'>
@@ -193,13 +193,13 @@ componentDidUpdate(prevProps) {
 {/* <!-- TOP SELLING BRANDS ENDS --> */}
  {/* TOP SEELING MODELS STARTS*/}
 
-<div className="container my-4"><span className="border-left fs-2">Top Selling Brands </span>
+{/* <div className="container my-4"><span className="border-left fs-2">Top Selling Brands </span>
 </div>
 <div className="container ">
    <div className="row carousel" data-flickity='{"wrapAround" : true,"autoplay" : true,"pageDots":false}'>
         {this.showAllModels()}
    </div>
-</div>
+</div> */}
 {/* TOP SELLING MODELS ENDS */}
 
 {/* FAQS STARTS */}

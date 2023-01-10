@@ -107,7 +107,7 @@ class LoginScreen extends Component {
 
                 </p>
                 <p class="text-center" style={{"color": "rgb(153, 153, 153)"}}>
-                    Sign in to continue to Ablore.
+                    Sign in to continue to Gocashit.
                 </p>
                 {!showOtpScreen?
           (

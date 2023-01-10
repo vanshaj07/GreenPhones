@@ -21,7 +21,7 @@ class FAQHomeScreen extends Component {
                data-bs-parent="#accordionExample">
                <div className="accordion-body">
                    <strong>In India there are many websites to sell your old mobile phone for cash but if your are
-                       looking for reliability then Cashify is most trusted platform to sell your mobile for
+                       looking for reliability then Gocashit is most trusted platform to sell your mobile for
                        instant cash.
                    </strong>
                </div>
@@ -37,11 +37,11 @@ class FAQHomeScreen extends Component {
            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                data-bs-parent="#accordionExample">
                <div className="accordion-body">
-                   <strong>After visiting the Green Mobile website or app, select the product category you want to
+                   <strong>After visiting the Gocashit website or app, select the product category you want to
                        sell.
                        Suppose you want to sell your mobile phone - click on the mobile section, select the brand,
                        select the variant and answer a few questions about the state of the device. That's it.
-                       After that, Green Mobile will generate its quote and if you like the price, we will deliver
+                       After that, Gocashit will generate its quote and if you like the price, we will deliver
                        the
                        money to your home and collect your old device.
                    </strong>

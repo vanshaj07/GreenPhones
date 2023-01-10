@@ -149,7 +149,7 @@ class PlaceOrderScreen extends Component {
                     </span>
                     <hr/>
                 </p>
-                <p class=" fs-5 d-flex justify-content-between">
+                {/* <p class=" fs-5 d-flex justify-content-between">
                     <span>
                         Add Promo Code
                     </span>
@@ -159,7 +159,7 @@ class PlaceOrderScreen extends Component {
                         </span>
                     </a>
                     <hr/>
-                </p>
+                </p> */}
                 <p class=" fs-5 d-flex justify-content-between">
                     <span>
                         Total Amount

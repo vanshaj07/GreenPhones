@@ -6,7 +6,7 @@ class GreenMobileWorks extends Component {
     render() {
         return (
           <>
-          <div className="container my-5"><span className="border-left fs-2"> HOW GREEN MOBILE WORKS </span>
+          <div className="container my-5"><span className="border-left fs-2"> How Gocashit works </span>
 </div>
 <div className="container">
    <div className="row">

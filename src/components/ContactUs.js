@@ -13,6 +13,8 @@ class ContactUs extends Component {
             Pancap Innovation Private Limited -- 
             62C, 2nd & 3rd Flor MM Road, Opp. Jhandewalan Mandir
             Rani Jhansi Road New Delhi-110005
+            9988336270
+
     </p>
 </div>
           </>

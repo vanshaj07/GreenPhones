@@ -49,7 +49,7 @@ class App extends Component {
         <div class="container-fluid ">
            
                 <a class="navbar-brand" href="#">
-                    <img src="/images/LOGO 02.png" class="img-fluid" style={{width: "50px"}} alt=""/>
+                    <img src="/gocashitlogo.png" class="img-fluid" style={{marginLeft: "25px", width: "200px", height:"70px"}} alt=""/>
 
                 </a>
           
@@ -72,11 +72,11 @@ class App extends Component {
                    
                 <li class="nav-item" ><Link to={'/career'} style={{"color":"grey"}} className="nav-link">  Career </Link></li>
 
-                <li class="nav-item" ><Link to={'/about-us'} style={{"color":"grey"}} className="nav-link"> About Us </Link></li>
+                <li class="nav-item" ><Link to={'/about-us'} style={{"color":"grey"}} className="nav-link"> About us </Link></li>
 
                 <li class="nav-item" ><Link to={'/warranty'} style={{"color":"grey"}} className="nav-link"> Warranty </Link></li>
                     
-                <li class="nav-item" ><Link to={'/contact-us'} style={{"color":"grey"}} className="nav-link"> Contact Us </Link></li>
+                <li class="nav-item" ><Link to={'/contact-us'} style={{"color":"grey"}} className="nav-link"> Contact us </Link></li>
 
                 </ul>
 
