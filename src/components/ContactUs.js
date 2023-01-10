@@ -10,10 +10,11 @@ class ContactUs extends Component {
 </div>
 <div className="container">
     <p>
-            Pancap Innovation Private Limited -- 
-            62C, 2nd & 3rd Flor MM Road, Opp. Jhandewalan Mandir
-            Rani Jhansi Road New Delhi-110005
-            9988336270
+            <h3 style={{"color":"#1ba79f"}}>Pancap Innovations Private Limited </h3> 
+            <h5>62C, 2nd & 3rd Floor MM Road</h5> 
+            <h5>Opp. Jhandewalan Mandir</h5>
+            <h5>Rani Jhansi Road New Delhi-110005</h5>
+            <h5>Customer Care:- +91 9988336270 </h5>
 
     </p>
 </div>
