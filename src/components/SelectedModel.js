@@ -54,7 +54,7 @@ class SelectedModel extends Component {
       storeSelectedModelExtraData(selectedModelExtraData);
         storeSelectedModelVariantData(paylaod);
         this.props.history.push(
-            `/quality-check/2`
+            `/quality-check/${device_id}`
           )
     }
 
@@ -111,7 +111,7 @@ class SelectedModel extends Component {
                 <div class="container fs-3">{variant? variant.name:""} {selectedVarient?`(${selectedVarient.memory_size} GB)`:""} 
                 </div>
                 {/* start */}
-                <div hidden = {selectedVarient} class="container fs-5 my-3">Choose A varient</div>
+                <div hidden = {selectedVarient} class="container fs-5 my-3">Choose A variant</div>
                 <div class="container" hidden = {selectedVarient}>
                  <form>
                    {this.showVarient()}
