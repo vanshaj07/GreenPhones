@@ -7,6 +7,7 @@ import {
 } from "../redux/greenMobile"
 import {connect} from "react-redux";
 import {IMAGE_URL} from "../utils/constants";
+import {ThreeDots} from 'react-loader-spinner'
 
 class AllModels extends Component {
     constructor(props) {
@@ -39,27 +40,41 @@ class AllModels extends Component {
     }
 
     updateShowMore = () => {
-      const {showMore} = this.state;
-      this.setState({showMore: !showMore})
+        const {showMore} = this.state;
+        this.setState({showMore: !showMore})
     }
 
     showAllModels = () => {
         const {series} = this.state;
         let modelData;
         if (series.success) {
-          const toDisplayDevices = !this.state.showMore ? series.data.slice(0,12) : series.data;
+            const toDisplayDevices = !this.state.showMore ? series.data.slice(0, 12) : series.data;
             let modelData = toDisplayDevices.map(item => {
                 return (<div className="col-lg-2 col-md-4 col-sm-6">
                     <div className="card m-2  shadow border-round p-2">
-                        <img src={`https://s3n.cashify.in/cashify/product/img/xhdpi/5fc412f4-2fb5.jpg`} 
-                          alt="Card image cap" 
-                          onClick={() => {this.selectedModel(item.id, item.image)
-                        }}/>
+                        <img src={`https://s3n.cashify.in/cashify/product/img/xhdpi/5fc412f4-2fb5.jpg`}
+                             alt="Card image cap"
+                             onClick={() => {
+                                 this.selectedModel(item.id, item.image)
+                             }}/>
                         <p>{item.name}</p>
                     </div>
                 </div>)
             })
             return modelData;
+        } else {
+            modelData =
+                <div className="text-center"><ThreeDots
+                    height="80"
+                    width="80"
+                    radius="9"
+                    color="green"
+                    ariaLabel="loading"
+                    wrapperStyle
+                    wrapperClass
+                />
+                </div>
+
         }
         return modelData;
     }
@@ -143,12 +158,12 @@ class AllModels extends Component {
                     {this.showAllModels()}
                 </div>
                 <div className="show-devices text-center">
-                  <button type="button" 
-                    class="btn btn-primary"
-                    onClick={this.updateShowMore}
-                  >
-                    {this.state.showMore ? 'show less' : 'show more'}
-                  </button>
+                    <button type="button"
+                            class="btn btn-primary"
+                            onClick={this.updateShowMore}
+                    >
+                        {this.state.showMore ? 'show less' : 'show more'}
+                    </button>
                 </div>
 
             </div>

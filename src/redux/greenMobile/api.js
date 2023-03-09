@@ -27,7 +27,7 @@ axios({
  export const getSeriesDataAPI = (payload) =>
  axios({
    method: METHOD.GET,
-   url: `${API_URL}/devices?brand_id=24`, 
+   url: `${API_URL}/devices?brand_id=${payload}`, 
    headers: { "Content-Type": "application/json" },
  });
 
